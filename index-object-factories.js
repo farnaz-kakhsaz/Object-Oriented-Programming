@@ -3,7 +3,7 @@ function createCircle(reduis){
     return {
         reduis,
         draw: function() {
-            console.log("draw")
+            console.log("draw");
         }
     }
 }
