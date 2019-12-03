@@ -7,4 +7,4 @@ function Circle(reduis) {
 }
 
 const another = new Circle(1);
-
+another.draw()
