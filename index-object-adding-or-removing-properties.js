@@ -1,6 +1,6 @@
 // Constructor Function
-function Circle(reduis) {
-    this.reduis = reduis;
+function Circle(redius) {
+    this.redius = redius;
     this.draw = function() {
         console.log("draw");
     }

@@ -1,7 +1,7 @@
 // Factory Funtion
-function createCircle(reduis){
+function createCircle(redius){
     return {
-        reduis,
+        redius,
         draw: function() {
             console.log("draw");
         }
