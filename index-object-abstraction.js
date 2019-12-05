@@ -26,7 +26,7 @@ circle.draw();
 function Circle(redius) {
     this.redius = redius;
 
-    // Convert to private properties and method
+    // Convert to private properties and method (private members)
     let defaultLocation = { x: 0, y: 0};
     let computeOptimumLocation = function(factory){
         // Do something
