@@ -10,7 +10,7 @@ console.log(prototypes)
 function Circle(radius) {
     this.radius = radius;
 }
-// What is the prototype properties?!
+// What is the prototype properties ?!
 // It is the object that will be used as the parent 
 // for objects created by a Circle constructor.
 // so these two are the same:
@@ -19,4 +19,5 @@ function Circle(radius) {
 // or
 // Object.getPrototypeOf(obj) = Object.prototype
 Circle.prototype
+
 const circle = new Circle(1);
