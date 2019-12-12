@@ -19,9 +19,9 @@
 // memory which we call circle base, so we're goning to have a single instance of the "draw" method.
 // we know thay are the same: Circle.prototype === c1.__proto__
 
-// So we have two kinds of properties and methods in JavaScript: 1-Instance 2-prototype
+// So we have two kinds of properties and methods in JavaScript: 1-Instance or own 2-prototype
 function Circle(radius) {
-    // 1.Instance members
+    // 1.Instance (own) members
     this.radius = radius;   
 }
 
@@ -39,3 +39,5 @@ const c2 = new Circle(1);
 Circle.prototype.toString = function() {
     return "Circle with radius " + this.radius
 }
+// The intersting part is, even though we have another implementation of the "toString" method,
+// on the objectBase, but the implementation that we create will be used because this is more accessible.

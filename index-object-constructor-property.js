@@ -1,3 +1,5 @@
+// Every object in javaScript has a property called constructor,
+// and that references the function that was used to construct or create that object.
 let x = {};
 
 // let x = new Object()
