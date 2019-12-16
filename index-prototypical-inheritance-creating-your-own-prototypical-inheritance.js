@@ -17,8 +17,8 @@ Circle.prototype.draw = function() {
     console.log("draw");
 }
 
-s = new Shape();
-c = new Circle(1);
+const s = new Shape();
+const c = new Circle(1);
 
 console.log("Shape", Object.getPrototypeOf(s));
 console.log("Circle", Object.getPrototypeOf(c));
