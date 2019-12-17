@@ -6,7 +6,7 @@ function Shape(color) {
 // Circle.prototype = Object.create(Shape.prototype);
 // Circle.prototype.constructor = Circle;
 // So let's refactor and extract, this two line of code:
-
+// So we encapsulated this logic somewhere that we can use.
 function extend(Child, Parent) {
     // Note that here the first letter of this parameter is Uppercase,
     // because we are expection these to be constructor functions.
