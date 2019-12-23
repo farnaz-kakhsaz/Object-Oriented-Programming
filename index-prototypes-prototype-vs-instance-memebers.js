@@ -8,7 +8,7 @@
 // }
 
 // Every time we create new object we copies all these (same) methods (functions)
-// in  memory, and it's a wate a lot of memory.
+// in  memory, and it's a waste a lot of memory.
 
 // Solution:
 // We know how to prototypical inheritance work.
