@@ -10,7 +10,7 @@
 // Why this is a terrible approach? Because we can still access this radius from the outside.
 // So this is not abstraction this is a convention for developers.
 // 2- Use ES6 symbols (primitive type), to implement private properties and methods
-// 3- Use Maps to achieve the same thing. (next lecture)
+// 3- Use WeakMaps to achieve the same thing. (next lecture)
 
 // Symbol is a function we call to generate a symbol. a symbol is essentially a unique identifier.
 // every time we call this function we get a new unique identifier. and note that is not a constructor function.
