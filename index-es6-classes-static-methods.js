@@ -14,8 +14,8 @@ class Circle {
 
     }
 
-    // 2-Stacit Method:
-    // We can also assign a method to the class function itself, not to its "prototype".
+    // 2-Static Method:
+    // We can also assign a method to the class function itself, not to it's "prototype".
     // Static methods are available on the class itself. not the object instance.
     // we often use them to create utility functions that are not specific to a given object.
     // With "static" keyword, the method (here parse method) will no longer be available on a circle object.
