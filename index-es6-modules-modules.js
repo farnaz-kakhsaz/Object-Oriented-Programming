@@ -34,6 +34,6 @@ c.draw();
 // introduced new syntaxes to define modules. we refer to these syntax's as module formats.
 // Popular Module Formats:
 // 1- AMD: Asynchronus Module Definition (used in browser applications)
-// 2- CommenJs: use in Node.js
+// 2- CommonJs: use in Node.js
 // 3- UMD: Universal Module Definition (it can used both in browser and Node.js)
 // 4- ES6 Modules: JavaScript in ES6, natively supports a module format (used in borwser)
