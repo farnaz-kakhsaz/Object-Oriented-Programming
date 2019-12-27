@@ -1,5 +1,4 @@
 // This is a little timer with start, stop, reset methods 
-
 function Stopwatch() {
     let  startTime, endTime, running, duration = 0;
 

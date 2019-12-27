@@ -31,7 +31,7 @@ function HtmlSelectElement(items = []) {
 
 HtmlSelectElement.prototype = new HtmlElement();
 HtmlSelectElement.prototype.constructor = HtmlSelectElement;
-// These two are the same;
+// These two are the same:
 // new HtmlSelectElement.prototype.constructor() === new HtmlSelectElement()
 
 const s = new HtmlSelectElement();
