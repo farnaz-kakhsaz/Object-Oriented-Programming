@@ -1,5 +1,6 @@
 # Object Oriented Programming
-This is some notes for Object Oriented Programming (OOP).
+
+> This is some notes for Object Oriented Programming (OOP).
 
 | Objects                       | Prototype                                | Prototypical Inheritance                   | ES6 Classes                    | ES6 Modules |
 | ----------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------ | ----------- |
