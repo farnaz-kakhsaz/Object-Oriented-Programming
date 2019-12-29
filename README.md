@@ -14,10 +14,4 @@ This is my Object Oriented Programming (OOP) practice. don't take it too serious
 | Abstraction                   |
 | Getters and Setters           |
 | Exercise                      |
-| ----------------------------- |
-| Prototypical Inheritance      |
-| ----------------------------- |
-| ES6 Classes                   |
-| ----------------------------- |
-| ES6 Modules                   |
-| ----------------------------- |
+
